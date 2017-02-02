@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Methodology}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Download}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Unzip}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Convert}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Quality Control}{4}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Analyse data \& plot}{5}{subsection.2.5}
+\contentsline {section}{\numberline {3}Results}{7}{section.3}
