@@ -125,11 +125,11 @@ NOA operates Klokotos GNSS station in Thessaly. In this report, we create an aut
 
 \section{Introduction}
 
-NOA operates a National GNSS network of thirteen (13) stations transmitting real-time 1-s data to the control centre in Athens. One such station is station THL (Thessaly) is located at 39 deg. 33’ 53.065’’ North (latitude) and 22 deg. 00’ 51.7814’’ East (longitude). It is also known as Klokotos station, because of the nearby Klokotos village. It is equiped with both seismological and geodetical equipment.
+NOA operates a National GNSS network of thirteen (13) stations transmitting real-time 1-s data to the control centre in Athens \cite{ganas2011noanet}. One such station is station THL (Thessaly) is located at 39 deg. 33’ 53.065’’ North (latitude) and 22 deg. 00’ 51.7814’’ East (longitude). It is also known as Klokotos station, because of the nearby Klokotos village. It is equiped with both seismological and geodetical equipment.
 
-The GNSS equipment was offered by INGV\footnote{http://www.ingv.it/} and installation was completed during May 2008. It comprises a Leica receiver (GRX 1200 Pro) with a choke-ring antenna (Leica AT 504). The sampling interval of observations is 1-s while a 5-Hz file is held on the ring-buffer with a life-time of 48 hrs. The 30-s data are available from the NOANET webpage\footnote{http://194.177.194.238:8080/noanetgsac} (code KLOK). An image of the installed equipment is shown in Figure~\ref{fig:klok}.
+The GNSS equipment was offered by INGV \cite{ingv}  and installation was completed during May 2008. It comprises a Leica receiver (GRX 1200 Pro) with a choke-ring antenna (Leica AT 504) \cite{ganas2008noanet}. The sampling interval of observations is 1-s while a 5-Hz file is held on the ring-buffer with a life-time of 48 hrs. The 30-s data are available from the NOANET website (code KLOK) \cite{noanet}. An image of the installed equipment is shown in Figure~\ref{fig:klok}.
 
-Every station is prone to errors, and to improve station's quality and further reduce common GPS errors, quality control is required. The most important quality parameters are Multipath in frequencies L1 and L2 (MP1 \& MP2) and SNR in both frequencies (SN1 \& SN2). Both can  be obtained  utilizing TEQC\footnote{https://www.unavco.org/software/data-processing/teqc/teqc.html}, which is a simple yet powerful toolkit to handle various GNSS data.
+Every station is prone to errors, and to improve station's quality and further reduce common GPS errors, quality control is required \cite{boler2013new, boler2014new}. The most important quality parameters are Multipath in frequencies L1 and L2 (MP1 \& MP2) and SNR in both frequencies (SN1 \& SN2). Both can  be obtained  utilizing TEQC \cite{teqc}, which is a simple yet powerful toolkit to handle various GNSS data.
 
 In this report, we create an automated procedure of downloading Klokotos' data from the beginning of its operation until present day, performing quality control on the data and plotting the calculated values of the quality parameters over this period.
 
@@ -172,7 +172,7 @@ Next step is to unzip the files. For this task we execute \texttt{1\_unzip.sh} s
 
 \subsection{Convert}
 
-CompactRINEX observation files are not compatible with TEQC. We first need to convert them to regular RINEX observation files. For this task, we use \texttt{CRX2RNX} tool, which can be downloaded from its website\footnote{http://terras.gsi.go.jp/ja/crx2rnx.html}. To convert all files, we execute \texttt{2\_convert.sh}, which converts all CompactRINEX \texttt{*.*d} to RINEX \texttt{*.*o} files.
+CompactRINEX observation files are not compatible with TEQC. We first need to convert them to regular RINEX observation files. For this task, we use \texttt{CRX2RNX} tool, which can be downloaded from its website \cite{crx2rnx}. To convert all files, we execute \texttt{2\_convert.sh}, which converts all CompactRINEX \texttt{*.*d} to RINEX \texttt{*.*o} files.
 
 \vspace*{25pt}
 \lstinputlisting[language=bash, basicstyle=\small\ttfamily, frame=bt, captionpos=b, title=\lstname]{2_convert.sh}
@@ -218,11 +218,13 @@ We can assume that a large object was placed near the station during that period
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
-\renewcommand{\refname}{\spacedlowsmallcaps{References}} % For modifying the bibliography heading
+\renewcommand{\refname}{} % For modifying the bibliography heading
 
 \bibliographystyle{unsrt}
 
-\bibliography{sample.bib} % The file containing the bibliography
+\vfill
+\section{References}
+\bibliography{sample} % The file containing the bibliography
 
 %----------------------------------------------------------------------------------------
 

@@ -1,0 +1,53 @@
+\begin{thebibliography}{1}
+
+\bibitem{ganas2011noanet}
+Athanassios Ganas, Kostas Chousianitis, George Drakatos, Marios Papanikolaou,
+  Panagiotis Argyrakis, Maria Kolligri, Panagiota Petrou, Evagelia Batsi, and
+  Christina Tsimi.
+\newblock Noanet: High-rate gps network for seismology and geodynamics in
+  greece.
+\newblock In {\em Geophysical Research Abstracts}, volume~13, 2011.
+
+\bibitem{ingv}
+{INGV} website.
+\newblock \url{http://www.ingv.it/}.
+\newblock Last accessed: 01-02-2017.
+
+\bibitem{ganas2008noanet}
+A~Ganas, G~Drakatos, S~Rontogianni, C~Tsimi, P~Petrou, M~Papanikolaou,
+  P~Argyrakis, K~Boukouras, N~Melis, and G~Stavrakakis.
+\newblock Noanet: the new permanent gps network for geodynamics in greece.
+\newblock In {\em Geophysical Research Abstracts}, volume~10, 2008.
+
+\bibitem{noanet}
+{NOANET} website.
+\newblock \url{http://194.177.194.238:8080/noanetgsac/}.
+\newblock Last accessed: 01-02-2017.
+
+\bibitem{boler2013new}
+FM~Boler, S~Wier, N~D’Agostino, RM~Fernandes, A~Ganas, and C~Bruyninx.
+\newblock New collaboration among geodesy data centers in europe and the us
+  facilitates data discovery and access.
+\newblock In {\em AGU Fall meeting 2013 abstracts session IN23D-1444,"
+  International cross-project collaboration and interoperability of data
+  management systems}, 2013.
+
+\bibitem{boler2014new}
+Fran Boler, Stuart Wier, Nicola D'Agostino, Rui~RM Fernandes, Athanassios
+  Ganas, Carine Bruyninx, and Benedikt Ofeigsson.
+\newblock New collaboration among geodesy data centers in europe and the us
+  facilitates data discovery and access.
+\newblock In {\em EGU General Assembly Conference Abstracts}, volume~16, page
+  12385, 2014.
+
+\bibitem{teqc}
+{TEQC} website.
+\newblock \url{https://www.unavco.org/software/data-processing/teqc/teqc.html}.
+\newblock Last accessed: 01-02-2017.
+
+\bibitem{crx2rnx}
+{CRX2RNX} website.
+\newblock \url{http://terras.gsi.go.jp/ja/crx2rnx.html}.
+\newblock Last accessed: 01-02-2017.
+
+\end{thebibliography}
